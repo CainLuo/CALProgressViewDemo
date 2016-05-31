@@ -1,35 +1,24 @@
-# ZSDocumentInteractionTest
-Test to preview and share `Steve Jobs by waiter lsaacson` to friends within iOS apps
+# CALProgressView
 
-#Using UIDocumentInteractionController
-###1. Preview 
+### 简介
 
-```
-- (BOOL)presentPreviewAnimated:(BOOL)animated;
+>  仿制系统的UIProgressView, 详细这里就不多说了, 自己去看代码吧, 里面都有注释呢
 
-```
+---
 
-![Preview](https://github.com/SeraZheng/ZSDocumentInteractionTest/blob/master/ScreenShots/Screen%20Shot%202015-12-30%20at%2019.42.49.png)
+### 作者感言
 
-###2. Third-party apps
+> 如果你有更好的建议或者对这篇文章有不满的地方, 请联系我, 我会参考你们的意见再进行修改, 联系我时, 请备注**CALScanQCode**, 祝大家学习愉快~谢谢~
 
-```
-- (BOOL)presentOpenInMenuFromRect:(CGRect)rect inView:(UIView *)view animated:(BOOL)animated;
-```
+Cain(罗家辉)
 
-![Third-party apps](https://github.com/SeraZheng/ZSDocumentInteractionTest/blob/master/ScreenShots/Screen%20Shot%202015-12-30%20at%2018.42.30.png)
+联系方式: [zhebushimengfei@qq.com](mailto:zhebushimengfei@qq.com)
 
-###3. Third-party apps as well as actions
+腾讯QQ: 350116542
 
-```
-- (BOOL)presentOptionsMenuFromRect:(CGRect)rect inView:(UIView *)view animated:(BOOL)animated;
-```
+---
 
-![Third-party apps as well as actions](https://github.com/SeraZheng/ZSDocumentInteractionTest/blob/master/ScreenShots/Screen%20Shot%202015-12-30%20at%2019.33.52.png)
+### 最终效果
 
-#Using UIActivityViewController
-###1. Display UIActivityViewController with AirDrop hidden
-![Display UIActivityViewController with AirDrop hidden ](https://github.com/SeraZheng/ZSDocumentInteractionTest/blob/master/ScreenShots/Screen%20Shot%202016-01-04%20at%2014.12.32.png)
 
-###2. Display custom UIActivity
-![ZS Custom](https://github.com/SeraZheng/ZSDocumentInteractionTest/blob/master/ScreenShots/Simulator%20Screen%20Shot%20Jan%204%2C%202016%2C%2017.38.15.png)
+
