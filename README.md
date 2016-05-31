@@ -20,5 +20,5 @@ Cain(罗家辉)
 
 ### 最终效果
 
-
+![calProgressView](https://github.com/CainRun/CALProgressViewDemo/blob/master/images/calProgressView.gif )
 
