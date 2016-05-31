@@ -1,0 +1,557 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A4BD38641CFDF2D200D67D32 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A4BD38631CFDF2D200D67D32 /* main.m */; };
+		A4BD38671CFDF2D200D67D32 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A4BD38661CFDF2D200D67D32 /* AppDelegate.m */; };
+		A4BD386A1CFDF2D200D67D32 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A4BD38691CFDF2D200D67D32 /* ViewController.m */; };
+		A4BD386D1CFDF2D200D67D32 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A4BD386B1CFDF2D200D67D32 /* Main.storyboard */; };
+		A4BD386F1CFDF2D200D67D32 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A4BD386E1CFDF2D200D67D32 /* Assets.xcassets */; };
+		A4BD38721CFDF2D200D67D32 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A4BD38701CFDF2D200D67D32 /* LaunchScreen.storyboard */; };
+		A4BD387D1CFDF2D200D67D32 /* CALProgressViewDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A4BD387C1CFDF2D200D67D32 /* CALProgressViewDemoTests.m */; };
+		A4BD38881CFDF2D200D67D32 /* CALProgressViewDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = A4BD38871CFDF2D200D67D32 /* CALProgressViewDemoUITests.m */; };
+		A4BD389C1CFDF2DB00D67D32 /* CALProgressAssembly.m in Sources */ = {isa = PBXBuildFile; fileRef = A4BD38981CFDF2DB00D67D32 /* CALProgressAssembly.m */; };
+		A4BD389D1CFDF2DB00D67D32 /* CALProgressView.m in Sources */ = {isa = PBXBuildFile; fileRef = A4BD389B1CFDF2DB00D67D32 /* CALProgressView.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A4BD38791CFDF2D200D67D32 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A4BD38571CFDF2D200D67D32 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A4BD385E1CFDF2D200D67D32;
+			remoteInfo = CALProgressViewDemo;
+		};
+		A4BD38841CFDF2D200D67D32 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A4BD38571CFDF2D200D67D32 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A4BD385E1CFDF2D200D67D32;
+			remoteInfo = CALProgressViewDemo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		A4BD385F1CFDF2D200D67D32 /* CALProgressViewDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CALProgressViewDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A4BD38631CFDF2D200D67D32 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		A4BD38651CFDF2D200D67D32 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		A4BD38661CFDF2D200D67D32 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		A4BD38681CFDF2D200D67D32 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		A4BD38691CFDF2D200D67D32 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		A4BD386C1CFDF2D200D67D32 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A4BD386E1CFDF2D200D67D32 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A4BD38711CFDF2D200D67D32 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		A4BD38731CFDF2D200D67D32 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A4BD38781CFDF2D200D67D32 /* CALProgressViewDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CALProgressViewDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A4BD387C1CFDF2D200D67D32 /* CALProgressViewDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CALProgressViewDemoTests.m; sourceTree = "<group>"; };
+		A4BD387E1CFDF2D200D67D32 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A4BD38831CFDF2D200D67D32 /* CALProgressViewDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CALProgressViewDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A4BD38871CFDF2D200D67D32 /* CALProgressViewDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CALProgressViewDemoUITests.m; sourceTree = "<group>"; };
+		A4BD38891CFDF2D200D67D32 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A4BD38971CFDF2DB00D67D32 /* CALProgressAssembly.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CALProgressAssembly.h; sourceTree = "<group>"; };
+		A4BD38981CFDF2DB00D67D32 /* CALProgressAssembly.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CALProgressAssembly.m; sourceTree = "<group>"; };
+		A4BD389A1CFDF2DB00D67D32 /* CALProgressView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CALProgressView.h; sourceTree = "<group>"; };
+		A4BD389B1CFDF2DB00D67D32 /* CALProgressView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CALProgressView.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A4BD385C1CFDF2D200D67D32 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A4BD38751CFDF2D200D67D32 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A4BD38801CFDF2D200D67D32 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A4BD38561CFDF2D200D67D32 = {
+			isa = PBXGroup;
+			children = (
+				A4BD38611CFDF2D200D67D32 /* CALProgressViewDemo */,
+				A4BD387B1CFDF2D200D67D32 /* CALProgressViewDemoTests */,
+				A4BD38861CFDF2D200D67D32 /* CALProgressViewDemoUITests */,
+				A4BD38601CFDF2D200D67D32 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A4BD38601CFDF2D200D67D32 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A4BD385F1CFDF2D200D67D32 /* CALProgressViewDemo.app */,
+				A4BD38781CFDF2D200D67D32 /* CALProgressViewDemoTests.xctest */,
+				A4BD38831CFDF2D200D67D32 /* CALProgressViewDemoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A4BD38611CFDF2D200D67D32 /* CALProgressViewDemo */ = {
+			isa = PBXGroup;
+			children = (
+				A4BD38951CFDF2DB00D67D32 /* CALProgressView */,
+				A4BD38651CFDF2D200D67D32 /* AppDelegate.h */,
+				A4BD38661CFDF2D200D67D32 /* AppDelegate.m */,
+				A4BD38681CFDF2D200D67D32 /* ViewController.h */,
+				A4BD38691CFDF2D200D67D32 /* ViewController.m */,
+				A4BD386B1CFDF2D200D67D32 /* Main.storyboard */,
+				A4BD386E1CFDF2D200D67D32 /* Assets.xcassets */,
+				A4BD38701CFDF2D200D67D32 /* LaunchScreen.storyboard */,
+				A4BD38731CFDF2D200D67D32 /* Info.plist */,
+				A4BD38621CFDF2D200D67D32 /* Supporting Files */,
+			);
+			path = CALProgressViewDemo;
+			sourceTree = "<group>";
+		};
+		A4BD38621CFDF2D200D67D32 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A4BD38631CFDF2D200D67D32 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		A4BD387B1CFDF2D200D67D32 /* CALProgressViewDemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				A4BD387C1CFDF2D200D67D32 /* CALProgressViewDemoTests.m */,
+				A4BD387E1CFDF2D200D67D32 /* Info.plist */,
+			);
+			path = CALProgressViewDemoTests;
+			sourceTree = "<group>";
+		};
+		A4BD38861CFDF2D200D67D32 /* CALProgressViewDemoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				A4BD38871CFDF2D200D67D32 /* CALProgressViewDemoUITests.m */,
+				A4BD38891CFDF2D200D67D32 /* Info.plist */,
+			);
+			path = CALProgressViewDemoUITests;
+			sourceTree = "<group>";
+		};
+		A4BD38951CFDF2DB00D67D32 /* CALProgressView */ = {
+			isa = PBXGroup;
+			children = (
+				A4BD38961CFDF2DB00D67D32 /* ProgressAssembly */,
+				A4BD38991CFDF2DB00D67D32 /* ProgressView */,
+			);
+			path = CALProgressView;
+			sourceTree = "<group>";
+		};
+		A4BD38961CFDF2DB00D67D32 /* ProgressAssembly */ = {
+			isa = PBXGroup;
+			children = (
+				A4BD38971CFDF2DB00D67D32 /* CALProgressAssembly.h */,
+				A4BD38981CFDF2DB00D67D32 /* CALProgressAssembly.m */,
+			);
+			path = ProgressAssembly;
+			sourceTree = "<group>";
+		};
+		A4BD38991CFDF2DB00D67D32 /* ProgressView */ = {
+			isa = PBXGroup;
+			children = (
+				A4BD389A1CFDF2DB00D67D32 /* CALProgressView.h */,
+				A4BD389B1CFDF2DB00D67D32 /* CALProgressView.m */,
+			);
+			path = ProgressView;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A4BD385E1CFDF2D200D67D32 /* CALProgressViewDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A4BD388C1CFDF2D200D67D32 /* Build configuration list for PBXNativeTarget "CALProgressViewDemo" */;
+			buildPhases = (
+				A4BD385B1CFDF2D200D67D32 /* Sources */,
+				A4BD385C1CFDF2D200D67D32 /* Frameworks */,
+				A4BD385D1CFDF2D200D67D32 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CALProgressViewDemo;
+			productName = CALProgressViewDemo;
+			productReference = A4BD385F1CFDF2D200D67D32 /* CALProgressViewDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A4BD38771CFDF2D200D67D32 /* CALProgressViewDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A4BD388F1CFDF2D200D67D32 /* Build configuration list for PBXNativeTarget "CALProgressViewDemoTests" */;
+			buildPhases = (
+				A4BD38741CFDF2D200D67D32 /* Sources */,
+				A4BD38751CFDF2D200D67D32 /* Frameworks */,
+				A4BD38761CFDF2D200D67D32 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A4BD387A1CFDF2D200D67D32 /* PBXTargetDependency */,
+			);
+			name = CALProgressViewDemoTests;
+			productName = CALProgressViewDemoTests;
+			productReference = A4BD38781CFDF2D200D67D32 /* CALProgressViewDemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		A4BD38821CFDF2D200D67D32 /* CALProgressViewDemoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A4BD38921CFDF2D200D67D32 /* Build configuration list for PBXNativeTarget "CALProgressViewDemoUITests" */;
+			buildPhases = (
+				A4BD387F1CFDF2D200D67D32 /* Sources */,
+				A4BD38801CFDF2D200D67D32 /* Frameworks */,
+				A4BD38811CFDF2D200D67D32 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A4BD38851CFDF2D200D67D32 /* PBXTargetDependency */,
+			);
+			name = CALProgressViewDemoUITests;
+			productName = CALProgressViewDemoUITests;
+			productReference = A4BD38831CFDF2D200D67D32 /* CALProgressViewDemoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A4BD38571CFDF2D200D67D32 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = Cain;
+				TargetAttributes = {
+					A4BD385E1CFDF2D200D67D32 = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+					A4BD38771CFDF2D200D67D32 = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = A4BD385E1CFDF2D200D67D32;
+					};
+					A4BD38821CFDF2D200D67D32 = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = A4BD385E1CFDF2D200D67D32;
+					};
+				};
+			};
+			buildConfigurationList = A4BD385A1CFDF2D200D67D32 /* Build configuration list for PBXProject "CALProgressViewDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A4BD38561CFDF2D200D67D32;
+			productRefGroup = A4BD38601CFDF2D200D67D32 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A4BD385E1CFDF2D200D67D32 /* CALProgressViewDemo */,
+				A4BD38771CFDF2D200D67D32 /* CALProgressViewDemoTests */,
+				A4BD38821CFDF2D200D67D32 /* CALProgressViewDemoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A4BD385D1CFDF2D200D67D32 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A4BD38721CFDF2D200D67D32 /* LaunchScreen.storyboard in Resources */,
+				A4BD386F1CFDF2D200D67D32 /* Assets.xcassets in Resources */,
+				A4BD386D1CFDF2D200D67D32 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A4BD38761CFDF2D200D67D32 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A4BD38811CFDF2D200D67D32 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A4BD385B1CFDF2D200D67D32 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A4BD386A1CFDF2D200D67D32 /* ViewController.m in Sources */,
+				A4BD389C1CFDF2DB00D67D32 /* CALProgressAssembly.m in Sources */,
+				A4BD38671CFDF2D200D67D32 /* AppDelegate.m in Sources */,
+				A4BD389D1CFDF2DB00D67D32 /* CALProgressView.m in Sources */,
+				A4BD38641CFDF2D200D67D32 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A4BD38741CFDF2D200D67D32 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A4BD387D1CFDF2D200D67D32 /* CALProgressViewDemoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A4BD387F1CFDF2D200D67D32 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A4BD38881CFDF2D200D67D32 /* CALProgressViewDemoUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A4BD387A1CFDF2D200D67D32 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A4BD385E1CFDF2D200D67D32 /* CALProgressViewDemo */;
+			targetProxy = A4BD38791CFDF2D200D67D32 /* PBXContainerItemProxy */;
+		};
+		A4BD38851CFDF2D200D67D32 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A4BD385E1CFDF2D200D67D32 /* CALProgressViewDemo */;
+			targetProxy = A4BD38841CFDF2D200D67D32 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		A4BD386B1CFDF2D200D67D32 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A4BD386C1CFDF2D200D67D32 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		A4BD38701CFDF2D200D67D32 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A4BD38711CFDF2D200D67D32 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A4BD388A1CFDF2D200D67D32 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A4BD388B1CFDF2D200D67D32 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A4BD388D1CFDF2D200D67D32 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = CALProgressViewDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.demoProject.CALProgressViewDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		A4BD388E1CFDF2D200D67D32 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = CALProgressViewDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.demoProject.CALProgressViewDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		A4BD38901CFDF2D200D67D32 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = CALProgressViewDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.demoProject.CALProgressViewDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CALProgressViewDemo.app/CALProgressViewDemo";
+			};
+			name = Debug;
+		};
+		A4BD38911CFDF2D200D67D32 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = CALProgressViewDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.demoProject.CALProgressViewDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CALProgressViewDemo.app/CALProgressViewDemo";
+			};
+			name = Release;
+		};
+		A4BD38931CFDF2D200D67D32 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = CALProgressViewDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.demoProject.CALProgressViewDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = CALProgressViewDemo;
+			};
+			name = Debug;
+		};
+		A4BD38941CFDF2D200D67D32 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = CALProgressViewDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.demoProject.CALProgressViewDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = CALProgressViewDemo;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A4BD385A1CFDF2D200D67D32 /* Build configuration list for PBXProject "CALProgressViewDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A4BD388A1CFDF2D200D67D32 /* Debug */,
+				A4BD388B1CFDF2D200D67D32 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A4BD388C1CFDF2D200D67D32 /* Build configuration list for PBXNativeTarget "CALProgressViewDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A4BD388D1CFDF2D200D67D32 /* Debug */,
+				A4BD388E1CFDF2D200D67D32 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		A4BD388F1CFDF2D200D67D32 /* Build configuration list for PBXNativeTarget "CALProgressViewDemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A4BD38901CFDF2D200D67D32 /* Debug */,
+				A4BD38911CFDF2D200D67D32 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		A4BD38921CFDF2D200D67D32 /* Build configuration list for PBXNativeTarget "CALProgressViewDemoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A4BD38931CFDF2D200D67D32 /* Debug */,
+				A4BD38941CFDF2D200D67D32 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A4BD38571CFDF2D200D67D32 /* Project object */;
+}
