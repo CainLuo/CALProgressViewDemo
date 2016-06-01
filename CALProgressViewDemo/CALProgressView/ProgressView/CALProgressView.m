@@ -25,7 +25,10 @@
         self.progressHeight = 5;
         self.progressViewStyle = AspProgressViewDefaultStyle;
         self.progress = 1;
-
+        self.progressColor = [UIColor colorWithRed:142.f / 255.f green:196.f / 255.f blue:1.f / 255.f alpha:1.0f];
+        
+        self.backgroundColor = [UIColor colorWithRed:221.f / 255.f green:221.f / 255.f blue:221.f / 255.f alpha:1.f];
+        
         [self addSubview:self.progressView];
     }
     
@@ -52,7 +55,7 @@
     
     self.layer.cornerRadius = self.progressHeight / 2;
     self.clipsToBounds = YES;
-
+    
     self.progressView.frame = CGRectMake(0, 0, self.frame.size.width, progressHeight);
     self.frame = CGRectMake(self.frame.origin.x, self.frame.origin.y, self.frame.size.width, progressHeight);
 }
@@ -106,7 +109,7 @@
                     
                     self.progressView.backgroundColor = [UIColor redColor];
                 }
-
+                
                 break;
         }
     }];

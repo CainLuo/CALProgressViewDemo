@@ -65,7 +65,7 @@
         
         _percentageTitle.font      = [UIFont systemFontOfSize:10];
         _percentageTitle.textColor = [UIColor blueColor];
-
+        
         _percentageTitle.adjustsFontSizeToFitWidth = YES;
         
     }

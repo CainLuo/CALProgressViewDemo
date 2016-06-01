@@ -32,11 +32,15 @@ typedef NS_ENUM(NSInteger, AspProgressViewStyle) {
 
 /**
  *  you can set progress color
+ *
+ *  @param frame default color red:142.f / 255.f green:196.f / 255.f blue:1.f / 255.f alpha:1.0f
  */
 @property (nonatomic, strong) UIColor *progressColor;
 
 /**
  *  you can set progress view style
+ *
+ *  @param frame default color red:221.f / 255.f green:221.f / 255.f blue:221.f / 255.f alpha:1.f
  */
 @property (nonatomic, assign) AspProgressViewStyle progressViewStyle;
 
