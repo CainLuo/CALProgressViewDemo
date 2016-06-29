@@ -8,10 +8,17 @@
 
 #import "ViewController.h"
 #import "CALProgressAssembly.h"
+#import "CALProgressView.h"
+
+#import "AspProgressView.h"
 
 @interface ViewController ()
 
 @property (nonatomic, strong) CALProgressAssembly *progressAssembly;
+
+@property (nonatomic, strong) CALProgressView *progressView;
+
+@property (weak, nonatomic) IBOutlet AspProgressView *progressViewSB;
 
 @end
 
@@ -45,21 +52,39 @@
     self.progressAssembly.percentageColor = [UIColor purpleColor];
     self.progressAssembly.progressTitle = @"1123";
     
+    self.progressView = [[CALProgressView alloc] initWithFrame:CGRectMake(60, 250, self.view.frame.size.width / 2, 100)];
+    self.progressView.progressViewStyle = AspProgressViewSinglenessStyle;
+    self.progressView.progress = 0.5;
+    self.progressView.progressColor = [UIColor redColor];
+    self.progressView.backgroundColor = [UIColor blackColor];
+    
+    self.progressViewSB.progress = 0.5f;
+
     //    self.progressAssembly.isNeedTitleLabel = NO;
     
+    
+    
+    [self.view addSubview:self.progressView];
     [self.view addSubview:self.progressAssembly];
 }
 
 - (void)buttonAction:(UIButton *)sender {
     
     self.progressAssembly.progressView.progress = 0.3f;
+    self.progressView.progress = 0.3f;
+    
     self.progressAssembly.progressPercentage = 0.3f;
+    
+    self.progressViewSB.progress = 0.3f;
 }
 
 - (void)restAction:(UIButton *)sender {
     
     self.progressAssembly.progressView.progress = 1.f;
+    self.progressView.progress = 1.f;
     self.progressAssembly.progressPercentage = 1.f;
+    
+    self.progressViewSB.progress = 1.f;
 }
 
 @end

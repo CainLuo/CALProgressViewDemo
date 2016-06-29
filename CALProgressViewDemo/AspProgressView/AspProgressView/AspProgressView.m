@@ -1,14 +1,14 @@
 //
-//  CALProgressView.m
-//  CALProgressView
+//  AspProgressView.m
+//  CALProgressViewDemo
 //
-//  Created by Cain on 31/5/2016.
+//  Created by Cain on 13/6/2016.
 //  Copyright © 2016 Cain. All rights reserved.
 //
 
-#import "CALProgressView.h"
+#import "AspProgressView.h"
 
-@interface CALProgressView()
+@interface AspProgressView()
 
 @property (nonatomic, strong) UIView *progressView;
 
@@ -16,14 +16,31 @@
 
 @end
 
-@implementation CALProgressView
+@implementation AspProgressView
 
 - (id)initWithFrame:(CGRect)frame {
     
     if (self = [super initWithFrame:frame]) {
         
         self.progressHeight = 5;
-        self.progressViewStyle = CALProgressViewDefaultStyle;
+        self.progressViewStyle = AspProgressViewDefaultStyle;
+        self.progress = 1;
+        self.progressColor = [UIColor colorWithRed:142.f / 255.f green:196.f / 255.f blue:1.f / 255.f alpha:1.0f];
+        
+        self.backgroundColor = [UIColor colorWithRed:221.f / 255.f green:221.f / 255.f blue:221.f / 255.f alpha:1.f];
+        
+        [self addSubview:self.progressView];
+    }
+    
+    return self;
+}
+
+- (instancetype)initWithCoder:(NSCoder *)aDecoder {
+    
+    if (self = [super initWithCoder:aDecoder]) {
+        
+        self.progressHeight = 5;
+        self.progressViewStyle = AspProgressViewDefaultStyle;
         self.progress = 1;
         self.progressColor = [UIColor colorWithRed:142.f / 255.f green:196.f / 255.f blue:1.f / 255.f alpha:1.0f];
         
@@ -84,10 +101,10 @@
                                              self.progressHeight);
         
         switch (self.progressViewStyle) {
-            case CALProgressViewSinglenessStyle:
+            case AspProgressViewSinglenessStyle:
                 
                 self.progressView.backgroundColor = self.defaultColor;
-
+                
                 break;
                 
             default:

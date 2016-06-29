@@ -1,19 +1,30 @@
 //
-//  CALProgressView.h
-//  CALProgressView
+//  AspProgressView.h
+//  CALProgressViewDemo
 //
-//  Created by Cain on 31/5/2016.
+//  Created by Cain on 13/6/2016.
 //  Copyright © 2016 Cain. All rights reserved.
 //
 
+
+/* AspProgressView 使用说明
+ 
+ self.progressView = [[CALProgressView alloc] initWithFrame:CGRectMake(60, 250, self.view.frame.size.width / 2, 100)];
+ 
+ self.progressView.progressViewStyle = AspProgressViewSinglenessStyle;
+ self.progressView.progress = 0.5;
+ self.progressView.progressColor = [UIColor redColor];
+ self.progressView.backgroundColor = [UIColor blackColor];
+ */
+
 #import <UIKit/UIKit.h>
 
-typedef NS_ENUM(NSInteger, CALProgressViewStyle) {
-    CALProgressViewDefaultStyle,
-    CALProgressViewSinglenessStyle,
+typedef NS_ENUM(NSInteger, AspProgressViewStyle) {
+    AspProgressViewDefaultStyle,
+    AspProgressViewSinglenessStyle,
 };
 
-@interface CALProgressView : UIView
+@interface AspProgressView : UIView
 
 /**
  *  you can set progress percentage
@@ -42,6 +53,6 @@ typedef NS_ENUM(NSInteger, CALProgressViewStyle) {
  *
  *  @param frame default color red:221.f / 255.f green:221.f / 255.f blue:221.f / 255.f alpha:1.f
  */
-@property (nonatomic, assign) CALProgressViewStyle progressViewStyle;
+@property (nonatomic, assign) AspProgressViewStyle progressViewStyle;
 
 @end

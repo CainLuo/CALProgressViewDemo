@@ -1,25 +1,25 @@
 //
-//  CALProgressAssembly.m
-//  CALProgressAssembly
+//  AspProgressAssembly.m
+//  CALProgressViewDemo
 //
-//  Created by Cain on 31/5/2016.
+//  Created by Cain on 13/6/2016.
 //  Copyright © 2016 Cain. All rights reserved.
 //
 
-#import "CALProgressAssembly.h"
+#import "AspProgressAssembly.h"
 
 #define PERCENTAGE_LABEL_HEIGHT 15
 #define PROGRESS_VIEW_HEIGHT    5
 
-@interface CALProgressAssembly()
+@interface AspProgressAssembly()
 
-@property (nonatomic, strong, readwrite) CALProgressView *progressView;
+@property (nonatomic, strong, readwrite) AspProgressView *progressView;
 @property (nonatomic, strong) UILabel *percentageTitle;
 @property (nonatomic, strong) UILabel *percentageLabel;
 
 @end
 
-@implementation CALProgressAssembly
+@implementation AspProgressAssembly
 
 - (instancetype)initWithFrame:(CGRect)frame {
     
@@ -35,17 +35,31 @@
     return self;
 }
 
+- (instancetype)initWithCoder:(NSCoder *)aDecoder {
+    
+    if (self = [super initWithCoder:aDecoder]) {
+        
+        self.progressViewHeight = 5;
+        
+        [self addSubview:self.progressView];
+        [self addSubview:self.percentageTitle];
+        [self addSubview:self.percentageLabel];
+    }
+    
+    return self;
+}
+
 #pragma mark - Set Progress View
-- (CALProgressView *)progressView {
+- (AspProgressView *)progressView {
     
     if (!_progressView) {
         
-        _progressView = [[CALProgressView alloc] initWithFrame:CGRectMake(0,
+        _progressView = [[AspProgressView alloc] initWithFrame:CGRectMake(0,
                                                                           PERCENTAGE_LABEL_HEIGHT + PROGRESS_VIEW_HEIGHT,
                                                                           self.frame.size.width,
                                                                           self.progressViewHeight)];
         
-        _progressView.progressViewStyle = CALProgressViewDefaultStyle;
+        _progressView.progressViewStyle = AspProgressViewDefaultStyle;
         _progressView.progressColor           = [UIColor colorWithRed:142.f / 255.f green:196.f / 255.f blue:1.f / 255.f alpha:1.0f];
         _progressView.progressBackgroundColor = [UIColor lightGrayColor];
     }

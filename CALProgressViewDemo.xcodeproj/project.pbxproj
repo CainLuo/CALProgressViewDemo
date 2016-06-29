@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A417A1651D0E5BA3009A6E1A /* AspProgressAssembly.m in Sources */ = {isa = PBXBuildFile; fileRef = A417A1641D0E5BA3009A6E1A /* AspProgressAssembly.m */; };
+		A417A1681D0E5BEA009A6E1A /* AspProgressView.m in Sources */ = {isa = PBXBuildFile; fileRef = A417A1671D0E5BEA009A6E1A /* AspProgressView.m */; };
 		A4BD38641CFDF2D200D67D32 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A4BD38631CFDF2D200D67D32 /* main.m */; };
 		A4BD38671CFDF2D200D67D32 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A4BD38661CFDF2D200D67D32 /* AppDelegate.m */; };
 		A4BD386A1CFDF2D200D67D32 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A4BD38691CFDF2D200D67D32 /* ViewController.m */; };
@@ -37,6 +39,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		A417A1631D0E5BA3009A6E1A /* AspProgressAssembly.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AspProgressAssembly.h; sourceTree = "<group>"; };
+		A417A1641D0E5BA3009A6E1A /* AspProgressAssembly.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AspProgressAssembly.m; sourceTree = "<group>"; };
+		A417A1661D0E5BEA009A6E1A /* AspProgressView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AspProgressView.h; sourceTree = "<group>"; };
+		A417A1671D0E5BEA009A6E1A /* AspProgressView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AspProgressView.m; sourceTree = "<group>"; };
 		A4BD385F1CFDF2D200D67D32 /* CALProgressViewDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CALProgressViewDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A4BD38631CFDF2D200D67D32 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		A4BD38651CFDF2D200D67D32 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -84,6 +90,33 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		A417A15D1D0E5B7A009A6E1A /* AspProgressView */ = {
+			isa = PBXGroup;
+			children = (
+				A417A15E1D0E5B7A009A6E1A /* AspProgressAssembly */,
+				A417A15F1D0E5B7A009A6E1A /* AspProgressView */,
+			);
+			path = AspProgressView;
+			sourceTree = "<group>";
+		};
+		A417A15E1D0E5B7A009A6E1A /* AspProgressAssembly */ = {
+			isa = PBXGroup;
+			children = (
+				A417A1631D0E5BA3009A6E1A /* AspProgressAssembly.h */,
+				A417A1641D0E5BA3009A6E1A /* AspProgressAssembly.m */,
+			);
+			path = AspProgressAssembly;
+			sourceTree = "<group>";
+		};
+		A417A15F1D0E5B7A009A6E1A /* AspProgressView */ = {
+			isa = PBXGroup;
+			children = (
+				A417A1661D0E5BEA009A6E1A /* AspProgressView.h */,
+				A417A1671D0E5BEA009A6E1A /* AspProgressView.m */,
+			);
+			path = AspProgressView;
+			sourceTree = "<group>";
+		};
 		A4BD38561CFDF2D200D67D32 = {
 			isa = PBXGroup;
 			children = (
@@ -107,6 +140,7 @@
 		A4BD38611CFDF2D200D67D32 /* CALProgressViewDemo */ = {
 			isa = PBXGroup;
 			children = (
+				A417A15D1D0E5B7A009A6E1A /* AspProgressView */,
 				A4BD38951CFDF2DB00D67D32 /* CALProgressView */,
 				A4BD38651CFDF2D200D67D32 /* AppDelegate.h */,
 				A4BD38661CFDF2D200D67D32 /* AppDelegate.m */,
@@ -309,6 +343,8 @@
 				A4BD38671CFDF2D200D67D32 /* AppDelegate.m in Sources */,
 				A4BD389D1CFDF2DB00D67D32 /* CALProgressView.m in Sources */,
 				A4BD38641CFDF2D200D67D32 /* main.m in Sources */,
+				A417A1651D0E5BA3009A6E1A /* AspProgressAssembly.m in Sources */,
+				A417A1681D0E5BEA009A6E1A /* AspProgressView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -534,6 +570,7 @@
 				A4BD388E1CFDF2D200D67D32 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		A4BD388F1CFDF2D200D67D32 /* Build configuration list for PBXNativeTarget "CALProgressViewDemoTests" */ = {
 			isa = XCConfigurationList;
@@ -542,6 +579,7 @@
 				A4BD38911CFDF2D200D67D32 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		A4BD38921CFDF2D200D67D32 /* Build configuration list for PBXNativeTarget "CALProgressViewDemoUITests" */ = {
 			isa = XCConfigurationList;
@@ -550,6 +588,7 @@
 				A4BD38941CFDF2D200D67D32 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
